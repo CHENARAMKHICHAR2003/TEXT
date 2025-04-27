@@ -1,5 +1,5 @@
-api_id = "api id"
-api_hash = "api hadh"
-bot_token = "bot token"
-auth_users = [7890781002]
-sudo_users = [7890781002]
+api_id = "27498866"
+api_hash = "96fbb6ad2e11ab04e83ca09ef3f42455"
+bot_token = ""
+auth_users = [8080218275,7417246937]
+sudo_users = [8080218275,7417246937]
