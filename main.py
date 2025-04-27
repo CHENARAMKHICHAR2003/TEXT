@@ -46,7 +46,7 @@ async def account_login(bot: Client, m: Message):
         await m.reply(f"**You Are Not Subscribed To This Bot\nContact - @courses_hub2_bot**", quote=True)
         return
         
-    editable = await m.reply_text(f"**Hey [{m.from_user.first_name}](tg://user?id={m.from_user.id})\nSend txt file**")
+    editable = await m.reply_text(f"**Hey [{m.from_user.first_name}](tg://user?id={m.from_user.id}) welcome my subscription member ☺️✅✅✅✅ only cp and pw text file send\nSend txt file 🗃️**")
     input: Message = await bot.listen(editable.chat.id)
     if input.document:
         x = await input.download()
